@@ -63,15 +63,15 @@ function sendStatus($text , $desp = '' , $key = '')
 }
 
 //签到代码
-$user = ''; //用户名
-$pwd = ''; //密码
-$baseUrl = ''; //论坛首页地址 结尾带上”/”
-$key = ''; // 方糖key
+$user = 'KuJyo'; //用户名
+$pwd = 'hou_2796747392'; //密码
+$baseUrl = 'https://www.sayhuahuo.com/'; //论坛首页地址 结尾带上”/”
+$key = 'p22DP2K2'; // 方糖key
 
 //心情：开心，难过，郁闷，无聊，怒，擦汗，奋斗，慵懒，衰
 //{"kx","ng","ym","wl","nu","ch","fd","yl","shuai"};
 $qdxq = 'kx'; //签到时使用的心情
-$todaysay = '开心~~~'; //想说的话
+$todaysay = '每日签到'; //想说的话
 
 //账号登录地址
 $loginPageUrl = $baseUrl . 'member.php?mod=logging&action=login';
